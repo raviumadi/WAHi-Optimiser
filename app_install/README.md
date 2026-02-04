@@ -16,11 +16,22 @@ app_install/
 - **MATLAB Runtime (MCR)** is required to run the app.
 - If MATLAB Runtime is **not already installed**, the installer will **automatically download and install** the appropriate version during setup.
 - No full MATLAB licence is required to run the installed application.
+- For the app to look its best, [install the Lato font](https://fonts.google.com/specimen/Lato) on your computer. 
 
 ## **Platform notes**
 
 - **Windows:** Run the installer from winx64/ and follow the on-screen instructions.
 - **macOS:** Run the installer from mac/. You may need to approve the app in *System Settings → Privacy & Security* on first launch.
+
+## Installed Apps
+
+### Windows 10 Installation
+
+![Win10InstallationExample](../img/win_done.PNG)
+
+### MacOS Installation
+
+![macosInstallationExample](../img/mac_done.png)
 
 ## Reports
 

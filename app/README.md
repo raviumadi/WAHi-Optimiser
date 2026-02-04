@@ -23,3 +23,7 @@ wahi_gui
 ![iwah_gui_start](../img/iwah_gui_start.png)
 
 *The WAH-i GUI at launch*
+
+## Preferred Font
+
+For the app to look its best, [install the Lato font](https://fonts.google.com/specimen/Lato) on your computer. 

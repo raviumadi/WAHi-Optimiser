@@ -28,6 +28,14 @@ The repository includes:
 
 See the folders `app` and `app_install`
 
+## Requirements
+
+- MATLAB (e.g. 2023b)
+  - Optimization Toolbox
+  - Signal Processing Toolbox
+  - Statistics and Machine Learning Toolbox
+  - Communications Toolbox
+
 ---
 
 ## **Graphical User Interface (GUI)**
