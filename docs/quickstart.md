@@ -40,10 +40,11 @@ All versions of WAH-i (Windows, macOS, MATLAB) run the **same optimiser core**. 
 ## 2) Create or load a microphone geometry
 
 You can start from scratch or reuse an existing configuration:
-	•	Random Config ♯
-Generates a random geometry for the selected number of microphones.
-	•	Load Config
-Loads a previously saved geometry from CSV, automatically updating the display.
+
+* **Random Config**
+  Generates a random geometry for the selected number of microphones.
+* **Load Config**
+  Loads a previously saved geometry from CSV, automatically updating the display.
 
 The Random Seed ensures reproducibility: using the same seed will generate the same random geometry and optimisation trajectory.
 
@@ -78,17 +79,20 @@ The Random Seed ensures reproducibility: using the same seed will generate the s
 The Field of Accuracy (FoA) specifies where in space localisation performance is evaluated and optimised. Rather than optimising uniformly over all directions and distances, WAH-i allows you to focus computational effort on the regions that matter most for your task.
 
 In Array & Field Parameters, set:
-	•	FoA outer radius (R) and inner radius (Rin) to define the spatial shell of interest
-	•	Grid spacing, starting coarse for exploration and refining later for precision
-	•	Minimum source–microphone distance to avoid near-field degeneracies and unstable solutions
+
+* FoA outer radius (R) and inner radius (Rin) to define the spatial shell of interest
+
+* Grid spacing, starting coarse for exploration and refining later for precision
+* Minimum source–microphone distance to avoid near-field degeneracies and unstable solutions
 
 In addition, the octant selection checkboxes allow you to restrict optimisation to specific spatial sectors (e.g. front-facing, elevated, or lateral regions).
 Combined with tailored inner/outer radius ranges, this provides a powerful way to custom-define the spatial regions that matter for your experiment or deployment.
 
 This is particularly useful when:
-	•	Targets are expected only in a known sector (e.g. forward flight, ground-facing arrays)
-	•	Certain regions are mechanically inaccessible or irrelevant
-	•	You want to trade global coverage for higher accuracy in a restricted volume
+
+* Targets are expected only in a known sector (e.g. forward flight, ground-facing arrays)
+* Certain regions are mechanically inaccessible or irrelevant
+* You want to trade global coverage for higher accuracy in a restricted volume
 
 Once these parameters are set, click Apply Changes to commit the FoA definition before running or optimising.
 
@@ -123,8 +127,9 @@ Once these parameters are set, click Apply Changes to commit the FoA definition 
 Click Run WAH ▶︎. Apply the Widefield Acoustics Heuristics algorithm to estimate the spatial accuracy at given grid points.  ([Read the paper](https://doi.org/10.1186/s12862-025-02441-4))
 
 WAH-i evaluates localisation performance across the FoA and displays:
-	•	3D colour-coded accuracy field
-	•	Summary metrics: Pass rate, Mean, P95, Max error
+
+* 3D colour-coded accuracy field
+* Summary metrics: Pass rate, Mean, P95, Max error
 
 This baseline evaluation provides a reference for judging optimisation gains.
 
@@ -133,32 +138,36 @@ This baseline evaluation provides a reference for judging optimisation gains.
 Click Optimise ᯓ★.
 
 For best results:
-	•	Start with coarse grid resolution. Increasing grid resolution adds computational costs.
-	•	Use conservative step sizes
-	•	Increase accuracy thresholds gradually
+
+* Start with coarse grid resolution. Increasing grid resolution adds computational costs.
+* Use conservative step sizes
+* Increase accuracy thresholds gradually
 
 See Optimisation tips for detailed guidance on staged optimisation strategies.
 
 ## 6) Review, export, and save
 
 After optimisation:
-	•	View the report to inspect improvements and convergence
-	•	Save report for documentation or sharing
-	•	Export .mat file for deeper analysis in MATLAB or Python
-	•	Save Config to retain the optimised microphone geometry for future designs
+
+* View the report to inspect improvements and convergence
+* Save report for documentation or sharing
+* Export .mat file for deeper analysis in MATLAB or Python
+* Save Config to retain the optimised microphone geometry for future designs
 
 This workflow supports rapid iteration while maintaining full reproducibility.
 
 # Advanced workflows — batch runs and analyses
 For large-scale comparisons or paper-level analyses:
-	•	The repository folder mat/ contains batch-run and analysis scripts
-	•	These scripts reproduce the full analysis pipeline used in the research paper
-(see linked publication)
+
+* The repository folder mat/ contains batch-run and analysis scripts
+* These scripts reproduce the full analysis pipeline used in the research paper
+  (see linked publication)
 
 Batch workflows enable:
-	•	Comparison of multiple geometries
-	•	Repeated optimisation runs
-	•	Statistical analysis of convergence and robustness
+
+* Comparison of multiple geometries
+* Repeated optimisation runs
+* Statistical analysis of convergence and robustness
 
 This is a more advanced workflow and benefits from substantial computational resources.
 
