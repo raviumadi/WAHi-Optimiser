@@ -12,6 +12,10 @@ WAHi-Optimiser can be used in two ways:
 - **Packaged installer (recommended)** — no full MATLAB licence required (uses MATLAB Runtime).
 - **From MATLAB (development)** — best if you plan to edit the code or contribute.
 
+> **Note**
+>
+> For the app to look its best, [install the Lato font](https://fonts.google.com/specimen/Lato) on your computer.  If you do not have the recommended font, it defaults to the system fonts after checking for a few fallback options.
+
 ---
 
 ## Option A — Use the packaged installer (recommended)

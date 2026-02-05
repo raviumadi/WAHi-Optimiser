@@ -30,7 +30,7 @@ All versions of WAH-i (Windows, macOS, MATLAB) run the **same optimiser core**. 
   </figcaption>
 	</figure>
 
-> Note
+> **Note**
 >
 >  The deployed app window is intentionally non-resizable to maintain a consistent panel layout.
 > Advanced users can customise layout behaviour when running from MATLAB.
@@ -65,7 +65,9 @@ The Random Seed ensures reproducibility: using the same seed will generate the s
   </figcaption>
 </figure>
 
-> Tip
+
+> **Tip**
+>
 > Loading a previously “good enough” configuration is an effective way to refine designs in stages and compare alternatives.
 
 3) Define the Field of Accuracy (FoA)
@@ -108,8 +110,9 @@ Once these parameters are set, click Apply Changes to commit the FoA definition 
   </figcaption>
 </figure>
 
-> Important
-> Any change to geometry or field parameters requires clicking Apply Changes before running evaluation or optimisation.
+> **Important**
+>
+> Any change to geometry or field parameters requires clicking `Apply Changes` before running evaluation or optimisation.
 >
 > ## 4) Evaluate the baseline geometry
 
