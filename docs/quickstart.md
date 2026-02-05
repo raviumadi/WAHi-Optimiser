@@ -35,6 +35,8 @@ All versions of WAH-i (Windows, macOS, MATLAB) run the **same optimiser core**. 
 >  The deployed app window is intentionally non-resizable to maintain a consistent panel layout.
 > Advanced users can customise layout behaviour when running from MATLAB.
 
+---
+
 ## 2) Create or load a microphone geometry
 
 You can start from scratch or reuse an existing configuration:
@@ -70,7 +72,8 @@ The Random Seed ensures reproducibility: using the same seed will generate the s
 >
 > Loading a previously “good enough” configuration is an effective way to refine designs in stages and compare alternatives.
 
-3) Define the Field of Accuracy (FoA)
+---
+## 3) Define the Field of Accuracy (FoA)
 
 The Field of Accuracy (FoA) specifies where in space localisation performance is evaluated and optimised. Rather than optimising uniformly over all directions and distances, WAH-i allows you to focus computational effort on the regions that matter most for your task.
 
@@ -113,8 +116,9 @@ Once these parameters are set, click Apply Changes to commit the FoA definition 
 > **Important**
 >
 > Any change to geometry or field parameters requires clicking `Apply Changes` before running evaluation or optimisation.
->
-> ## 4) Evaluate the baseline geometry
+
+---
+## 4) Evaluate the baseline geometry
 
 Click Run WAH ▶︎. Apply the Widefield Acoustics Heuristics algorithm to estimate the spatial accuracy at given grid points.  ([Read the paper](https://doi.org/10.1186/s12862-025-02441-4))
 
