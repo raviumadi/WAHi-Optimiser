@@ -129,10 +129,10 @@ nav_order: 4
    - **Call duration (ms)**
      Length of the emitted signal.
 
-   - **Start frequency $f_0$ (Hz)**
+   - **Start frequency f0 (Hz)**
      Upper bound of the sweep. Also used as the freq for CF cal type.
 
-   - **End frequency $f_1$ (Hz)**
+   - **End frequency f1 (Hz)**
      Lower bound of the sweep. Ignored for CF call type.
 
    - **SNR (dB)**
@@ -162,8 +162,8 @@ nav_order: 4
    - **Re-centre**
      Recentres the array about the origin.
 
-   Changes here must be committed using ``**Apply Changes**``.
-   You can ``**Restore Defaults**`` to start over from the top.
+   Changes here must be committed using `Apply Changes`.
+   You can `Restore Defaults` to start over from the top.
 
 
 ---
