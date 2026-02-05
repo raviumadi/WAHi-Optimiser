@@ -3,6 +3,8 @@ title: Home
 nav_order: 1
 ---
 
+{% include nav.html %}
+
 # WAHi-Optimiser documentation
 
 WAH-*i* (Widefield Acoustics Heuristic — inverse iterative) is a MATLAB-based framework for designing and optimising 3D microphone-array geometries for TDOA localisation. The GUI supports rapid iteration, evaluation over a user-defined Field of Accuracy (FoA), and heuristic optimisation under real-world constraints (arm length, minimum spacing, etc.).

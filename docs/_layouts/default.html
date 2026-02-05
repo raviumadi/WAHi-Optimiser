@@ -18,20 +18,6 @@
   --fontStack-monospace: "Monaspace Neon", ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
 }
 </style>
- <!-- added block for navigation -->
-<nav class="wahi-nav" aria-label="Primary">
-  <ul>
-    {% for item in site.data.nav %}
-      <li>
-        <a href="{{ item.url | relative_url }}"
-           {% if page.url == item.url %}aria-current="page"{% endif %}>
-          {{ item.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
-
 
   <head>
     <meta charset="utf-8">
