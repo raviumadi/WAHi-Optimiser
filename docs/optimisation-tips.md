@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Optimisation tips
+permalink: /optimisation-tips/
 nav_order: 5
 ---
 

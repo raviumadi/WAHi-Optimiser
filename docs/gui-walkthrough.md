@@ -1,5 +1,7 @@
 ---
+layout: default
 title: GUI walkthrough
+permalink: /gui/
 nav_order: 4
 ---
 
