@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /index/
+permalink: /
 nav_order: 1
 ---
 
