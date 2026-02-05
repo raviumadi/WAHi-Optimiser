@@ -1,0 +1,28 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* WAHi-Optimiser top nav */
+.wahi-nav {
+  margin: 1rem 0 0.5rem 0;
+}
+.wahi-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.wahi-nav a {
+  display: inline-block;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.25);
+}
+.wahi-nav a[aria-current="page"] {
+  font-weight: 700;
+  text-decoration: underline;
+}
