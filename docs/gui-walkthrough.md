@@ -233,7 +233,8 @@ nav_order: 4
    - **Geometry span**
    - **Grid point count**
 
-   These metrics define the optimisation objective and stopping criteria.
+These metrics define the optimisation objective and stopping criteria.
+
 ---
 
 ## Suggested workflow
