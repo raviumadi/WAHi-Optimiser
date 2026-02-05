@@ -181,7 +181,7 @@ nav_order: 4
 
 ---
 
-   ### 1.6 Workflow Actions
+### 1.6 Workflow Actions
 
    Primary workflow controls:
 
@@ -234,7 +234,6 @@ nav_order: 4
    - **Grid point count**
 
    These metrics define the optimisation objective and stopping criteria.
-
 ---
 
 ## Suggested workflow
