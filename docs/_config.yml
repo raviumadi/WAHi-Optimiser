@@ -1,6 +1,7 @@
 title: WAHi-Optimiser
 description: WAH-i — Microphone array design & optimisation toolkit (WAHi)
-theme: Cayman
+remote_theme: pages-themes/cayman@v0.2.0
+
 
 url: "https://raviumadi.github.io"
 baseurl: "/WAHi-Optimiser"   # IMPORTANT: must match your repo name exactly
@@ -35,5 +36,6 @@ gh_edit_branch: "main"
 gh_edit_source: "docs"
 gh_edit_view_mode: "tree"
 
-# Keep it simple (no custom plugins)
-plugins: []
+# Keep it simple, only necessary plugins
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
