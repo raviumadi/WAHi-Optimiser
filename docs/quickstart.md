@@ -60,7 +60,7 @@ The Random Seed ensures reproducibility: using the same seed will generate the s
          style="width:100%; max-width:440px; height:auto; border-radius:10px;">
   </div>
   <figcaption style="margin-top:10px; font-size:0.95em; color:#666; text-align:center;">
-    Two example randomised microphone geometries generated using the 4 and 6 microphone counts with the same random seeds.
+    Two example randomised microphone geometries generated using 4 and 6 microphone counts with the same random seeds.
     Randomisation provides diverse starting points for optimisation while remaining fully reproducible.
   </figcaption>
 </figure>
@@ -104,15 +104,14 @@ Once these parameters are set, click Apply Changes to commit the FoA definition 
          style="width:100%; max-width:440px; height:auto; border-radius:10px;">
   </div>
   <figcaption style="margin-top:10px; font-size:0.95em; color:#666; text-align:center;">
-    Two example Fields of Accuracy. In the second example, the inner radius is increased to 2m, creating thinner shell of FoA. The selected octants are limited to the front-top regions.
+    Two example Fields of Accuracy. In the second example, the inner radius is increased to 2m, creating thinner shell of FoA. The selected octants are limited to the front-top regions. In both cases, the accuracy estimations are unoptimised (only Run WAH stage executed)
   </figcaption>
 </figure>
 
-
-  Important
-  Any change to geometry or field parameters requires clicking Apply Changes before running evaluation or optimisation.
-
-## 4) Evaluate the baseline geometry
+> Important
+> Any change to geometry or field parameters requires clicking Apply Changes before running evaluation or optimisation.
+>
+> ## 4) Evaluate the baseline geometry
 
 Click Run WAH ▶︎. Apply the Widefield Acoustics Heuristics algorithm to estimate the spatial accuracy at given grid points.  ([Read the paper](https://doi.org/10.1186/s12862-025-02441-4))
 
