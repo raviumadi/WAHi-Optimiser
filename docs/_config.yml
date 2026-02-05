@@ -1,6 +1,6 @@
 title: WAHi-Optimiser
 description: WAH-i — Microphone array design & optimisation toolkit (WAHi)
-theme: just-the-docs
+theme: Cayman
 
 url: "https://raviumadi.github.io"
 baseurl: "/WAHi-Optimiser"   # IMPORTANT: must match your repo name exactly
