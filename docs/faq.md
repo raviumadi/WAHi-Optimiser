@@ -7,8 +7,13 @@ nav_order: 6
 
 # FAQ
 
+## What does WAH-*i* mean?
+
+The acronym stands for *Widefield Acoustics Heuristic inverse-iterative*. It is a continuation of the [Array WAH project](https://github.com/raviumadi/Array_WAH), where a method is developed to estimate the spatial localisation accuracy of a given microphone array geometry using the time-difference-of-arrival (TDOA) method. This work extends it to answer the question: *If I need a certain level of accuracy in a given spatial region, what is the best geometric configuration?*
+
 ## Do I need MATLAB to run WAH-*i*?
-**No.**  
+
+**No.**
 The deployed application runs using **MATLAB Runtime**, which is **free** and does **not** require a MATLAB licence.
 The installer will automatically prompt you to install the correct MATLAB Runtime version if it is not already present on your system.
 

@@ -8,6 +8,12 @@
 
 This repository contains the complete software, analyses, datasets, and application developed as part of the WAH-*i* research programme. The project introduces a principled optimisation framework for designing microphone array geometries that achieve a desired spatial field of localisation accuracy.
 
+ 
+
+### [Quickstart and Usage Guide](https://raviumadi.github.io/WAHi-Optimiser/quickstart/)
+
+
+
 ---
 
 ## Overview

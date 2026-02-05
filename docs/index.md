@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 nav_order: 1
 ---
 
@@ -12,7 +13,7 @@ WAH-*i* (Widefield Acoustics Heuristic — inverse iterative) is a MATLAB-based 
 - **Install**: MATLAB Runtime + packaged app installation, and development setup.
 - **Quickstart**: the shortest path from “installed” to “first optimisation run”.
 - **GUI walkthrough**: what each panel does, and a suggested workflow.
-- **Optimisation tips**: staged optimisation, interpreting metrics, avoiding common traps.
+- **Optimisation tips**: staged optimisation, interpreting metrics, and avoiding common traps.
 - **FAQ**: deployment, paths, performance, and troubleshooting.
 
 ## Recommended first steps
