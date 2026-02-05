@@ -1,0 +1,17 @@
+<nav class="wahi-nav" aria-label="Primary navigation">
+  <div class="wahi-nav-inner">
+    <ul class="wahi-nav-list">
+      {% for item in site.data.nav %}
+        <li class="wahi-nav-item">
+          <a
+            href="{{ item.url | relative_url }}"
+            class="wahi-nav-link{% if page.url == item.url %} active{% endif %}"
+            {% if page.url == item.url %}aria-current="page"{% endif %}
+          >
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
