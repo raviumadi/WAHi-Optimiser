@@ -1,0 +1,39 @@
+title: WAHi-Optimiser
+description: WAH-i — Microphone array design & optimisation toolkit (WAHi)
+theme: just-the-docs
+
+url: "https://raviumadi.github.io"
+baseurl: "/WAHi-Optimiser"   # IMPORTANT: must match your repo name exactly
+
+# Appearance
+color_scheme: light
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 8
+  preview_words_after: 12
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+
+# Aux links (top-right)
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/raviumadi/WAHi-Optimiser"
+
+# Footer/back-to-top
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Edit link (optional)
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/raviumadi/WAHi-Optimiser"
+gh_edit_branch: "main"
+gh_edit_source: "docs"
+gh_edit_view_mode: "tree"
+
+# Keep it simple (no custom plugins)
+plugins: []
