@@ -134,6 +134,7 @@ WAH-i evaluates localisation performance across the FoA and displays:
 
 This baseline evaluation provides a reference for judging optimisation gains.
 
+---
 ## 5) Optimise the geometry
 
 Click Optimise ᯓ★.
@@ -154,7 +155,15 @@ See Optimisation tips for detailed guidance on staged optimisation strategies.
     <strong>A successful optimisation run:</strong> A 99% threshold was set for this 6 mic random config at a maximum arm length of 75cm and the optimisation ran with 25 iterations. The front-top octant pairs were restricted to a 1m shell with the FoA set to 3m. The first run with a 50cm arm length achieved about 72% pass rate, which when passed with increased arm length, reached 98% pass rate. Such stagewise optimisation is an ideal approach to explore the best geometries. See the report below.
   </figcaption>
 </figure>
+<p>
+  <a href="{{ '/assets/csv/mic_geometry_98percent_6mcs.csv' | relative_url }}"
+     download
+     style="font-weight:600;">
+    ⬇ Download example high-performance microphone geometry (CSV) (output from the above run)
+  </a>
+</p>
 
+---
 ## 6) Review, export, and save
 
 After optimisation:
@@ -182,7 +191,6 @@ After optimisation:
   </figcaption>
 </figure>
 
-
 This workflow supports rapid iteration while maintaining full reproducibility.
 
 ---
@@ -202,6 +210,7 @@ Batch workflows enable:
 
 This is a more advanced workflow and benefits from substantial computational resources.
 
+---
 ## Design philosophy
 WAH-i is intentionally designed so that single-geometry GUI runs are sufficient for most field researchers.
 Batch analyses are provided for method development, benchmarking, and large comparative studies.
