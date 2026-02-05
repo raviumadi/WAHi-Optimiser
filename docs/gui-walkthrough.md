@@ -5,7 +5,7 @@ permalink: /gui/
 nav_order: 4
 ---
 
-   # GUI walkthrough
+# GUI walkthrough
 
    This page provides a complete, field-by-field walkthrough of the **WAH-i**
    (Graphical User Interface) for microphone-array design and optimisation.
@@ -24,7 +24,7 @@ nav_order: 4
 </figure>
 ---
 
-   ## 1) Configurations & Controls (left panel)
+## 1) Configurations & Controls (left panel)
 
    This panel defines the **geometry, evaluation field, optimisation behaviour,
    and signal model**. Changes in this panel are not applied until explicitly
@@ -35,7 +35,7 @@ nav_order: 4
 
 ---
 
-   ### 1.1 Array & Field Parameters
+### 1.1 Array & Field Parameters
 
    These parameters define **physical constraints** and the **Field of Accuracy (FoA)**
    over which localisation performance is evaluated.
@@ -84,11 +84,9 @@ nav_order: 4
    - **Failure penalty (cm)**
      Penalty assigned to failed localisation points.
 
-
-
 ---
 
-   ### 1.2 Optimiser Parameters
+### 1.2 Optimiser Parameters
 
    Controls how **WAH-i** explores geometry space during optimisation.
 
@@ -121,7 +119,7 @@ nav_order: 4
 
 ---
 
-   ### 1.3 Call Synthesis Parameters
+### 1.3 Call Synthesis Parameters
 
    Defines the **synthetic acoustic signal** used for TDOA estimation.
 
@@ -148,7 +146,7 @@ nav_order: 4
 
 ---
 
-   ### 1.4 Manual Management — Microphone Placement
+### 1.4 Manual Management — Microphone Placement
 
    Allows **direct manipulation** of individual microphone positions.
 
@@ -210,7 +208,7 @@ nav_order: 4
 
 ---
 
-   ## 2) 3D Field of Accuracy (right panel)
+## 2) 3D Field of Accuracy (right panel)
 
    Displays the **evaluated spatial field**:
 
@@ -223,7 +221,7 @@ nav_order: 4
 
 ---
 
-   ## 2.1 Performance Summary
+## 2.1 Performance Summary
 
    Numerical performance metrics:
 
@@ -239,7 +237,7 @@ nav_order: 4
 
 ---
 
-   ## Suggested workflow
+## Suggested workflow
 
    1. Generate a **random configuration** or load a known geometry
    2. Define a **coarse FoA** and grid spacing
