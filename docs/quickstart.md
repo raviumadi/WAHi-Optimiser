@@ -107,10 +107,10 @@ Once these parameters are set, click Apply Changes to commit the FoA definition 
   ">
     <img src="{{ '/assets/img/quickstart/foa_example_1.png' | relative_url }}"
          alt="Front-Top Field of Accuracy. FoA Outer R 3m, FoA Inner R Default. Unoptimised Run"
-         style="width:100%; max-width:440px; height:auto; border-radius:10px;">
+         style="width:90%; max-width:440px; height:auto; border-radius:10px;">
     <img src="{{ '/assets/img/quickstart/foa_example_2.png' | relative_url }}"
          alt="Front-Top Field of Accuracy. FoA Outer R 3m, FoA Inner R 2m. Unoptimised Run."
-         style="width:100%; max-width:440px; height:auto; border-radius:10px;">
+         style="width:90%; max-width:440px; height:auto; border-radius:10px;">
   </div>
   <figcaption style="margin-top:10px; font-size:0.95em; color:#666; text-align:center;">
     Two example Fields of Accuracy. In the second example, the inner radius is increased to 2m, creating thinner shell of FoA. The selected octants are limited to the front-top regions. In both cases, the accuracy estimations are unoptimised (only Run WAH stage executed)
@@ -159,7 +159,7 @@ This workflow supports rapid iteration while maintaining full reproducibility.
 # Advanced workflows — batch runs and analyses
 For large-scale comparisons or paper-level analyses:
 
-* The repository folder mat/ contains batch-run and analysis scripts
+* The repository folder `mat/` contains batch-run and analysis scripts
 * These scripts reproduce the full analysis pipeline used in the research paper
   (see linked publication)
 
