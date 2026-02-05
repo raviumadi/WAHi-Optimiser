@@ -21,6 +21,7 @@ If you intend to **modify the code or develop new methods**, a full MATLAB insta
 WAH-i is directly associated with peer-reviewed research on microphone-array optimisation and acoustic localisation.
 
 A curated list of related publications is provided here:
+
 [Widefield acoustics heuristic: advancing microphone array design for accurate spatial tracking of echolocating bats](https://doi.org/10.1186/s12862-025-02441-4)
 
 [WAH-i: Optimising Array Geometry for Customised Localisation Accuracy](https://www.biorxiv.org/search/author1%3ARavi%2BUmadi%2B)
