@@ -107,15 +107,16 @@ Once these parameters are set, click Apply Changes to commit the FoA definition 
   ">
     <img src="{{ '/assets/img/quickstart/foa_example_1.png' | relative_url }}"
          alt="Front-Top Field of Accuracy. FoA Outer R 3m, FoA Inner R Default. Unoptimised Run"
-         style="width:90%; max-width:440px; height:auto; border-radius:10px;">
+         style="width:100%; max-width:440px; height:auto; border-radius:10px;">
     <img src="{{ '/assets/img/quickstart/foa_example_2.png' | relative_url }}"
          alt="Front-Top Field of Accuracy. FoA Outer R 3m, FoA Inner R 2m. Unoptimised Run."
-         style="width:90%; max-width:440px; height:auto; border-radius:10px;">
+         style="width:100%; max-width:440px; height:auto; border-radius:10px;">
   </div>
   <figcaption style="margin-top:10px; font-size:0.95em; color:#666; text-align:center;">
     Two example Fields of Accuracy. In the second example, the inner radius is increased to 2m, creating thinner shell of FoA. The selected octants are limited to the front-top regions. In both cases, the accuracy estimations are unoptimised (only Run WAH stage executed)
   </figcaption>
 </figure>
+
 
 > **Important**
 >
@@ -145,18 +146,48 @@ For best results:
 
 See Optimisation tips for detailed guidance on staged optimisation strategies.
 
+<figure style="margin: 1.25rem 0;">
+  <img src="{{ '/assets/img/quickstart/optimisation_run.png' | relative_url }}"
+       alt="Example optimisation run showing pass-rate progression and geometry updates"
+       style="width:100%; max-width:900px; height:auto; border-radius:10px;">
+  <figcaption style="margin-top:10px; font-size:0.95em; color:#666;">
+    <strong>A successful optimisation run:</strong> A 99% threshold was set for this 6 mic random config at a maximum arm length of 75cm and the optimisation ran with 25 iterations. The front-top octant pairs were restricted to a 1m shell with the FoA set to 3m. The first run with a 50cm arm length achieved about 72% pass rate, which when passed with increased arm length, reached 98% pass rate. Such stagewise optimisation is an ideal approach to explore the best geometries. See the report below.
+  </figcaption>
+</figure>
+
 ## 6) Review, export, and save
 
 After optimisation:
 
 * View the report to inspect improvements and convergence
-* Save report for documentation or sharing
+* Save the report for documentation or sharing
 * Export .mat file for deeper analysis in MATLAB or Python
 * Save Config to retain the optimised microphone geometry for future designs
 
+<figure style="margin: 1.25rem 0;">
+  <img src="{{ '/assets/img/quickstart/report_output_2.png' | relative_url }}"
+       alt="Example optimisation report showing before-and-after performance summaries"
+       style="width:100%; max-width:900px; height:auto; border-radius:10px;">
+  <figcaption style="margin-top:10px; font-size:0.95em; color:#666;">
+    <strong>An Example Optimisation report:</strong> Summary of performance improvements,
+    geometry evolution, and spatial accuracy distributions before and after optimisation.
+  </figcaption>
+</figure>
+<figure style="margin: 1.25rem 0;">
+  <img src="{{ '/assets/img/quickstart/mic_output.png' | relative_url }}"
+       alt="Example optimisation report showing before-and-after mic geometries"
+       style="width:100%; max-width:900px; height:auto; border-radius:10px;">
+  <figcaption style="margin-top:10px; font-size:0.95em; color:#666;">
+    <strong>Geometry Summary</strong> The report also produces a summary of the microphones' inital and final geometry, with dimension-wise drift.
+  </figcaption>
+</figure>
+
+
 This workflow supports rapid iteration while maintaining full reproducibility.
 
+---
 # Advanced workflows — batch runs and analyses
+
 For large-scale comparisons or paper-level analyses:
 
 * The repository folder `mat/` contains batch-run and analysis scripts
