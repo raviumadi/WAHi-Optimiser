@@ -1,9 +1,9 @@
 ---
+layout: default
 title: Home
+permalink: /index/
 nav_order: 1
 ---
-{% include nav.html %}
-
 
 # WAHi-Optimiser documentation
 
