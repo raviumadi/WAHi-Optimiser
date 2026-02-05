@@ -77,7 +77,7 @@ wahi_gui
        alt="MATLAB launch placeholder"
        style="width:100%; max-width:900px; height:auto; border-radius:10px; box-shadow: 0 6px 18px rgba(0,0,0,0.08);">
   <figcaption style="margin-top:10px; font-size:0.95em; color:#666;">
-    <strong>GUI Launch:</strong> MATLAB `wahi_gui` launch and success output.
+    <strong>GUI Launch:</strong> MATLAB `wahi_gui` launch and successful first Run WAH with 6 mics.
   </figcaption>
 </figure>
 
