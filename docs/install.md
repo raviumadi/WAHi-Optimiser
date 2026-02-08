@@ -90,9 +90,11 @@ wahi_gui
 ## Dependencies
 
 WAH-*i*-Optimiser is designed to run on standard MATLAB installations, but some workflows require specific toolboxes.
-	•	Optimisation Toolbox (for optimisation runs using lsqnonlin).
-MathWorks link: https://www.mathworks.com/products/optimization.html
-	•	Localisation engine class (e.g., BatCallLocaliser.m) must be on the MATLAB path.
+
+* Optimisation Toolbox (for optimisation runs using lsqnonlin).
+MathWorks link: [https://www.mathworks.com/products/optimization.html](https://www.mathworks.com/products/optimization.html)
+
+* Localisation engine class (e.g., BatCallLocaliser.m) must be on the MATLAB path.
 This is included in the repo / app bundle, but if you are integrating your own engine, ensure it’s discoverable via addpath.
 
 Quick dependency check (MATLAB)
