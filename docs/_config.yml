@@ -7,6 +7,8 @@ url: "https://raviumadi.github.io"
 baseurl: "/WAHi-Optimiser"   # IMPORTANT: must match your repo name exactly
 permalink: pretty
 
+google_analytics: G-GRQS3WRKFY
+
 # Appearance
 color_scheme: light
 
