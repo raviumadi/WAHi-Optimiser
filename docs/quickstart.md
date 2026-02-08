@@ -212,5 +212,5 @@ This is a more advanced workflow and benefits from substantial computational res
 
 ---
 ## Design philosophy
-WAH-i is intentionally designed so that single-geometry GUI runs are sufficient for most field researchers.
+WAH-*i* is intentionally designed so that single-geometry GUI runs are sufficient for most field researchers.
 Batch analyses are provided for method development, benchmarking, and large comparative studies.
