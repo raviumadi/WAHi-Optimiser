@@ -7,7 +7,7 @@ nav_order: 2
 
 # Install
 
-WAHi-Optimiser can be used in two ways:
+WAH-*i*-Optimiser can be used in two ways:
 
 - **Packaged installer (recommended)** — no full MATLAB licence required (uses MATLAB Runtime).
 - **From MATLAB (development)** — best if you plan to edit the code or contribute.
@@ -33,13 +33,14 @@ WAHi-Optimiser can be used in two ways:
        alt="WAHi-Optimiser installed on macOS"
        style="width:100%; max-width:900px; height:auto; border-radius:10px; box-shadow: 0 6px 18px rgba(0,0,0,0.08);">
   <figcaption style="margin-top:10px; font-size:0.95em; color:#666;">
-    <strong>WAH<em>i</em>:</strong> Installer.
+    <strong>WAH-<em>i</em>:</strong> Installer.
   </figcaption>
 </figure>
 
+
 ### Verify installation
 
-After installation, you should be able to launch WAHi-Optimiser from your Applications/Start Menu (depending on platform).
+After installation, you should be able to launch WAH-*i*-Optimiser from your Applications/Start Menu (depending on platform).
 
 <figure style="margin: 1.25rem 0;">
   <img src="{{ '/assets/img/install/mac_app_start.png' | relative_url }}"
@@ -88,7 +89,7 @@ wahi_gui
 
 ## Dependencies
 
-WAHi-Optimiser is designed to run on standard MATLAB installations, but some workflows require specific toolboxes.
+WAH-*i*-Optimiser is designed to run on standard MATLAB installations, but some workflows require specific toolboxes.
 	•	Optimisation Toolbox (for optimisation runs using lsqnonlin).
 MathWorks link: https://www.mathworks.com/products/optimization.html
 	•	Localisation engine class (e.g., BatCallLocaliser.m) must be on the MATLAB path.

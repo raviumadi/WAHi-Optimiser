@@ -1,0 +1,7 @@
+# Ignore Jekyll build output and cache
+_site
+.jekyll-cache
+.bundle
+Gemfile.lock
+Gemfile
+docs.code-workspace

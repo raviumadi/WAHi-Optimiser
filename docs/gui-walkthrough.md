@@ -7,7 +7,7 @@ nav_order: 4
 
 # GUI walkthrough
 
-   This page provides a complete, field-by-field walkthrough of the **WAH-i**
+   This page provides a complete, field-by-field walkthrough of the **WAH-*i***
    (Graphical User Interface) for microphone-array design and optimisation.
    All panels and controls correspond to the numbered regions shown in the GUI.
 

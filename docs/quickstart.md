@@ -13,7 +13,7 @@ All versions of WAH-i (Windows, macOS, MATLAB) run the **same optimiser core**. 
 
 ---
 
-## 1) Launch WAH-i
+## 1) Launch WAH-*i*
 
 - **Deployed app**: open *WAH-i* from the Applications / Start menu.
 - **MATLAB**: run:

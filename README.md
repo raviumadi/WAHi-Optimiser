@@ -2,9 +2,9 @@
 
 **Companion repository for the research paper:**
 
-**WAH-*i*: Optimising Array Geometry for Customised Localisation Accuracy**
+**WAH-*i*: Optimising Microphone Array Geometry for Customised Localisation Accuracy**
 
-[Read the Paper](https://www.biorxiv.org/search/author1%3ARavi%2BUmadi%2B)
+[Read the Paper](https://doi.org/10.64898/2026.02.07.704547)
 
 This repository contains the complete software, analyses, datasets, and application developed as part of the WAH-*i* research programme. The project introduces a principled optimisation framework for designing microphone array geometries that achieve a desired spatial field of localisation accuracy.
 

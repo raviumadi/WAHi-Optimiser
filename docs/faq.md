@@ -29,7 +29,7 @@ A curated list of related publications is provided here:
 
 [Widefield acoustics heuristic: advancing microphone array design for accurate spatial tracking of echolocating bats](https://doi.org/10.1186/s12862-025-02441-4)
 
-[WAH-i: Optimising Array Geometry for Customised Localisation Accuracy](https://www.biorxiv.org/search/author1%3ARavi%2BUmadi%2B)
+[WAH-*i*: Optimising Microphone Array Geometry for Customised Localisation Accuracy]((https://doi.org/10.64898/2026.02.07.704547))
 
 [BATSY4-PRO: An Open-Source Multichannel Ultrasound Recorder for Field Bioacoustics](https://doi.org/10.1101/2025.08.11.669530)
 
@@ -42,7 +42,7 @@ These publications describe the theoretical background, optimisation heuristics,
 ## Is there a portable recorder or microphone array that can use WAH-*i*-optimised geometries?
 
 **Yes!**
-WAH-*i* was developed alongside **Batsy4-Pro**, an open-source, portable multichannel ultrasound recorder designed for field bioacoustics.
+WAH-*i* was developed alongside **BATSY4-PRO**, an open-source, portable multichannel ultrasound recorder designed for field bioacoustics.
 
 Optimised geometries exported from WAH-i (CSV) can be directly adopted or adapted for:
 - Custom microphone arms
@@ -50,7 +50,7 @@ Optimised geometries exported from WAH-i (CSV) can be directly adopted or adapte
 - Field-deployable recording systems
 
 More information on Batsy4-Pro can be found here:
-[Batsy4-Pro Project](https://github.com/raviumadi/Embedded_Ultrasonics/tree/main/Batsy4-Pro)
+[BATSY4-PRO Project](https://github.com/raviumadi/Embedded_Ultrasonics/tree/main/Batsy4-Pro)
 
 ---
 
@@ -69,9 +69,9 @@ There are **no hidden fees, subscriptions, or feature locks**.
 ## How can I support this work?
 WAH-*i* is developed and maintained as a self-funded research project.
 
-If you find the tool useful and would like to support continued development, you may:
+If you find the tool useful and would like to support continued development of this and all of my other open-source projects, you may:
 - [**Buy me a coffee**](https://buymeacoffee.com/raviumadi) ☕
-- Share how you used WAH-i in your research
+- Share how you used WAH-*i* in your research
 - Cite the relevant paper(s) if appropriate
 
 Hearing how the tool is used in real research contexts is genuinely motivating and helps guide future development.
@@ -79,9 +79,7 @@ Hearing how the tool is used in real research contexts is genuinely motivating a
 ---
 
 ## Where can I find more of your research and tools?
-A broader collection of open-source tools, hardware projects, and research outputs is available at:
-
-[**biosonix**](https://biosonix.io)
+A broader collection of open-source tools, hardware projects, and research outputs is available at: [**biosonix**](https://biosonix.io)
 
 This includes:
 - Bioacoustics instrumentation
