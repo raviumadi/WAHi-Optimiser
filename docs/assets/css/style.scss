@@ -18,19 +18,24 @@
 .wahi-nav-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 1.2rem;
   padding: 0;
   margin: 0;
+  min-width: 0;
 }
 
 .wahi-nav-item {
   margin: 0;
+  min-width: 0
 }
 
 .wahi-nav-link {
   text-decoration: none;
   color: #0366d6;
   font-weight: 500;
+  display: inline-block;
+  white-space: nowrap; 
 }
 
 .wahi-nav-link:hover {
