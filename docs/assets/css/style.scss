@@ -47,3 +47,70 @@
   font-weight: 600;
   border-bottom: 2px solid #0366d6;
 }
+
+.wahi-gallery {
+  margin: 3rem 0;
+}
+
+.wahi-slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+}
+
+.wahi-slider-track {
+  display: flex;
+  transition: transform 0.45s ease;
+}
+
+.wahi-slide {
+  min-width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.wahi-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wahi-slide figcaption {
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  color: #555;
+  background: #fafafa;
+}
+
+.wahi-slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.55);
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.wahi-slider-btn:hover {
+  background: rgba(0,0,0,0.75);
+}
+
+.wahi-slider-btn.prev { left: 10px; }
+.wahi-slider-btn.next { right: 10px; }
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  .wahi-slider-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1.5rem;
+  }
+}
