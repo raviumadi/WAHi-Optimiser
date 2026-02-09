@@ -23,7 +23,7 @@ WAH-*i* (Widefield Acoustics Heuristic — *inverse iterative*; pronounced ***wa
       <figure class="wahi-slide">
         <img src="{{ '/assets/img/home/opti_run_3.png' | relative_url }}"
              alt="Field of Accuracy example 1">
-        <figcaption>WAH<em>i</em> Run: With diagonal left-right octants with 6 mics in 0.75 m max arm-length. After 25 iterations, the optimiser converged to 81% pass rate, with 95% grid points below 30 cm inaccuracy within a field of 4m radius, with a inner exlucsion zone up to 1.5 m. Report >>  </figcaption>
+        <figcaption>WAH<em>i</em> Run: With diagonal left-right octants; 6 mics at 0.75 m max arm-length. After 20 iterations, the optimiser converged to 81% pass rate, with 95% grid points below 30 cm inaccuracy within a field of 4m radius, with a inner exlucsion zone up to 1.5 m. Report >>  </figcaption>
       </figure>
 
       <figure class="wahi-slide">
