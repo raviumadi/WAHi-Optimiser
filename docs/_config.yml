@@ -39,6 +39,13 @@ gh_edit_branch: "main"
 gh_edit_source: "docs"
 gh_edit_view_mode: "tree"
 
+author:
+  name: Ravi Umadi
+  url: https://biosonix.io
+  
 # Keep it simple, only necessary plugins
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
