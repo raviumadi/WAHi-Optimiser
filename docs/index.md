@@ -141,7 +141,7 @@ The GUI supports rapid, single-geometry exploration, while the accompanying batc
 2. Follow [**Quickstart**]({{ '/quickstart/' | relative_url }})
 3. Use [**Optimisation tips**]({{ '/optimisation-tips/' | relative_url }}) when pushing for high pass rates
 
-<hr>
+<!-- <hr>
 <h2>Support my open science projects</h2>
 
 <p>
@@ -164,6 +164,6 @@ and free public releases, consider buying me a coffee.
    ">
   ☕ Buy me a coffee
 </a>
-</p>
+</p> -->
 
 
