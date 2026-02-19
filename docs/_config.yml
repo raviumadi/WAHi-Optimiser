@@ -3,8 +3,8 @@ description: WAH-i — Microphone array design & optimisation toolkit
 remote_theme: pages-themes/cayman@v0.2.0
 
 
-url: "https://raviumadi.github.io"
-baseurl: "/WAHi-Optimiser"   # IMPORTANT: must match your repo name exactly
+url: "https://wahi.biosonix.io"
+baseurl: ""  # IMPORTANT: must match your repo name exactly
 permalink: pretty
 
 google_analytics: G-GRQS3WRKFY
