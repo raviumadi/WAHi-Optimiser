@@ -53,7 +53,7 @@ WAH-*i* (Widefield Acoustics Heuristic — *inverse iterative*; pronounced ***wa
 
 ## What WAH-*i* is for?
 
-WAH-*i* is a practical tool for designing, evaluating, and optimising microphone array geometries under realistic localisation constraints.
+WAH-*i* is a practical tool for designing, evaluating, and optimising microphone array geometries under realistic localisation constraints. 
 
 At its core, WAH-*i* answers a simple but hard question:
 
