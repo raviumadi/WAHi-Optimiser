@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: WAH-i
 permalink: /
 nav_order: 1
 include_slider: true
