@@ -1,29 +1,43 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-    <!-- Add links here and center-justify them -->
-    <!-- <div class="centered-justified-links">
-      <a href="/Art">Art</a>
-      <a href="/Bibliography">Bib</a>
-      <a href="/Recipe">Recipe</a>
-      <a href="/Contact">Contact</a>
-    </div> -->
-
-    <div class="footer-col-wrapper">
-      <!-- Add a horizontal line -->
-      <!-- <hr> -->
-      <div style="padding-top: 5px; padding-bottom: 5px;">
-      </div>
-      <!-- Center-align the site title -->
-      <h2 class="footer-heading" style="text-align: center; font-weight: bold;">{{ site.title | escape }}</h2>
-      <p style="text-align: center; font-weight: bold;"><a href="https://biosonix.io/">Sounds and Senses Lab</a></p>
-      <!-- Center-align the site description -->
-      <p style="text-align: center;">{{- site.description | escape -}}</p>
-      <p style="text-align: center;">&copy; 2026 Ravi Umadi</p>
-
-      <!-- Add the link after the copyright with a smaller font size -->
-      <p style="text-align: center; font-size: smaller;"><a href="https://biosonix.io/Privacy-Policy">Privacy Policy</a></p>
+  <div class="wrapper site-footer__inner">
+    <div>
+      <p class="eyebrow-label">Documentation subsite</p>
+      <h2 class="site-footer__title">BiosoniX</h2>
+      <p class="site-footer__description">WAH-<i>i</i>-Optimiser guides, downloads, walkthroughs, and practical setup notes.</p>
     </div>
+
+    <div class="site-footer__grid">
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/download/' | relative_url }}">Download</a></li>
+          <li><a href="{{ '/install/' | relative_url }}">Install</a></li>
+          <li><a href="{{ '/quickstart/' | relative_url }}">Quickstart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Guides</h3>
+        <ul>
+          <li><a href="{{ '/gui/' | relative_url }}">GUI walkthrough</a></li>
+          <li><a href="{{ '/optimisation-tips/' | relative_url }}">Optimisation tips</a></li>
+          <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+          <li><a href="https://github.com/raviumadi/WAHi-Optimiser" target="_blank" rel="noreferrer">Repository</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <ul>
+          <li><a href="https://biosonix.io" target="_blank" rel="noreferrer">BiosoniX main site</a></li>
+          <li><a href="https://doi.org/10.64898/2026.02.07.704547" target="_blank" rel="noreferrer">Research paper</a></li>
+          <li><a href="https://www.linkedin.com/in/raviumadi/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://biosonix.io/Privacy-Policy" target="_blank" rel="noreferrer">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="site-footer__copyright">&copy; 2026 Ravi Umadi.</p>
   </div>
 </footer>

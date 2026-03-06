@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "serve-wahi-docs",
+			"type": "shell",
+			"command": "bundle",
+			"args": [
+				"exec",
+				"jekyll",
+				"serve",
+				"--port",
+				"4011",
+				"--livereload",
+				"--livereload_port",
+				"35740"
+			],
+			"isBackground": true
+		}
+	]
+}

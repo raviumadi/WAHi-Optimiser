@@ -1,17 +1,36 @@
-<nav class="wahi-nav" aria-label="Primary navigation">
-  <div class="wahi-nav-inner">
-    <ul class="wahi-nav-list">
-      {% for item in site.data.nav %}
-        <li class="wahi-nav-item">
+<header class="site-header" id="siteHeader" role="banner">
+  <div class="wrapper site-header__inner">
+    <a class="site-brand" rel="author" href="https://biosonix.io">
+      <span class="site-brand__title">BiosoniX</span>
+      <span class="site-brand__subtitle">WAH-<em>i</em> Optimiser</span>
+    </a>
+
+    <button class="site-nav-toggle" id="siteNavToggle" type="button" aria-expanded="false" aria-controls="siteNav">
+      <span>Menu</span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <div class="site-nav__primary">
+        {% for item in site.data.nav %}
+          {% assign is_active = page.url == item.url %}
           <a
-            href="{{ item.url | relative_url }}"
-            class="wahi-nav-link{% if page.url == item.url %} active{% endif %}"
-            {% if page.url == item.url %}aria-current="page"{% endif %}
+            class="site-nav__link{% if is_active %} is-active{% endif %}"
+            href="{% if item.url contains 'http' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
+            {% if is_active %}aria-current="page"{% endif %}
           >
             {{ item.title }}
           </a>
-        </li>
-      {% endfor %}
-    </ul>
+        {% endfor %}
+      </div>
+
+      <div class="site-nav__utilities">
+        <a class="site-nav__utility" href="https://github.com/raviumadi/WAHi-Optimiser">Repository</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme mode">
+          <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">☀</span>
+          <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">☾</span>
+          <span class="screen-reader-text" data-theme-label>Toggle theme</span>
+        </button>
+      </div>
+    </nav>
   </div>
-</nav>
+</header>
