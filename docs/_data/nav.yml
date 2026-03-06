@@ -21,7 +21,7 @@
     - title: Code releases
       url: https://biosonix.io/Code/
       external: true
-    - title: RUBAT
+    - title: RUBAT Studio
       url: https://rubat.biosonix.io
       external: true
       class: nav-project-rubat
