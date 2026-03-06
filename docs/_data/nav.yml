@@ -12,3 +12,22 @@
   url: /optimisation-tips/
 - title: FAQ
   url: /faq/
+- title: Projects
+  url: /projects/
+  children:
+    - title: Projects overview
+      url: https://biosonix.io/Tools/
+      external: true
+    - title: Code releases
+      url: https://biosonix.io/Code/
+      external: true
+    - title: RUBAT
+      url: https://rubat.biosonix.io
+      external: true
+      class: nav-project-rubat
+    - title: Array WAH
+      url: https://doi.org/10.5281/zenodo.15691371
+      external: true
+    - title: Embedded Ultrasonics
+      url: https://github.com/raviumadi/Embedded_Ultrasonics
+      external: true

@@ -279,6 +279,68 @@ th {
   white-space: nowrap;
 }
 
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown > summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0.42rem 0.68rem;
+  border-radius: 999px;
+  color: var(--text);
+  border: 1px solid transparent;
+  cursor: pointer;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.nav-dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+
+.nav-dropdown > summary:hover,
+.nav-dropdown[open] > summary,
+.nav-dropdown.is-active > summary {
+  background: color-mix(in srgb, var(--surface-soft) 88%, transparent);
+  border-color: var(--line);
+}
+
+.nav-dropdown__menu {
+  position: absolute;
+  top: calc(100% + 0.55rem);
+  left: 0;
+  min-width: 240px;
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.55rem;
+  background: var(--surface-solid);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  z-index: 20;
+}
+
+.nav-dropdown__menu a {
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.85rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav-dropdown__menu a:hover {
+  background: color-mix(in srgb, var(--surface-soft) 88%, transparent);
+}
+
+.nav-project-rubat {
+  font-family: "Smokum", serif;
+  font-size: 1.2rem;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
 .site-nav__link:hover,
 .site-nav__utility:hover,
 .theme-toggle:hover,
@@ -592,10 +654,17 @@ html[data-theme="dark"] .theme-toggle__icon--moon {
   }
 
   .site-nav__link,
+  .nav-dropdown > summary,
   .site-nav__utility,
   .theme-toggle {
     width: 100%;
     justify-content: flex-start;
+  }
+
+  .nav-dropdown__menu {
+    position: static;
+    min-width: 0;
+    margin-top: 0.4rem;
   }
 
   .site-footer__grid {
